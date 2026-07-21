@@ -20,7 +20,7 @@ public class PeopleAvoidence : MonoBehaviour
                 float distance = direction.magnitude;
                 if (distance > 0)
                 {
-                    totalForce += direction.normalized / distance; // repulsion
+                    totalForce += direction.normalized / distance; 
                 }
             }
         }
